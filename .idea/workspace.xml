@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f8c1e54-ec81-4478-b3c7-143b64f4bb90" name="Changes" comment="Final PuzzleSolved">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SolutionsForUniqueChars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SolutionsForUniqueChars.java" afterDir="false" />
-    </list>
+    <list default="true" id="7f8c1e54-ec81-4478-b3c7-143b64f4bb90" name="Changes" comment="Final PuzzleSolved" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672966632214</updated>
-      <workItem from="1672966633724" duration="18986000" />
+      <workItem from="1672966633724" duration="19303000" />
     </task>
     <task id="LOCAL-00001" summary="UpdateToPuzzleSolver">
       <created>1673096487126</created>
@@ -107,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673108623539</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Final PuzzleSolved">
+      <created>1673110077866</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673110077866</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
