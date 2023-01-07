@@ -16,16 +16,18 @@ public class SolutionsForUniqueChars {
         } catch (FileNotFoundException FNFE) {
             System.out.println("File not found.");
         }
-        for(int i = 0; i < tempArr.size(); i++){
-            for(int j = 0; i < tempArr.size(); i++){
-                if(tempArr.get(i).charAt(2) != tempArr.get(j).charAt(2)){
-                    if(tempArr.get(i).charAt(1) != tempArr.get(j).charAt(1)){
-                        if(tempArr.get(i).charAt(0) != tempArr.get(j).charAt(0)){
-                            solutions.add(tempArr.get(i));
-                            //needsfix
-                        }
-                    }
+        for(String str : tempArr){
+            boolean isDuplicate = false;
+            for (String solution : solutions) {
+                if (str.charAt(0) == solution.charAt(0) ||
+                        str.charAt(1) == solution.charAt(1) ||
+                        str.charAt(2) == solution.charAt(2)) {
+                    isDuplicate = true;
+                    break;
                 }
+            }
+            if(!isDuplicate){
+                solutions.add(str);
             }
         }
         System.out.println(solutions.size());
