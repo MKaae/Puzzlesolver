@@ -22,6 +22,7 @@ public class SolutionsForUniqueChars {
                     if(tempArr.get(i).charAt(1) != tempArr.get(j).charAt(1)){
                         if(tempArr.get(i).charAt(0) != tempArr.get(j).charAt(0)){
                             solutions.add(tempArr.get(i));
+                            //needsfix
                         }
                     }
                 }
