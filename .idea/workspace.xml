@@ -63,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672966632214</updated>
-      <workItem from="1672966633724" duration="17482000" />
+      <workItem from="1672966633724" duration="18986000" />
     </task>
     <task id="LOCAL-00001" summary="UpdateToPuzzleSolver">
       <created>1673096487126</created>
@@ -100,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673103816284</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Final PuzzleSolved">
+      <created>1673108623539</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673108623539</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

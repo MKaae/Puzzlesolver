@@ -1,10 +1,12 @@
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Scanner;
 public class SolutionsForUniqueChars {
     public void UniqueLetters() {
         ArrayList<String> tempArr = new ArrayList<>();
+        ArrayList<String> solutions = new ArrayList<>();
         try {
             File fl = new File("NewFile3Words.txt");
             Scanner sc = new Scanner(fl);
@@ -15,17 +17,18 @@ public class SolutionsForUniqueChars {
         } catch (FileNotFoundException FNFE) {
             System.out.println("File not found.");
         }
-        int tempArrSize = tempArr.size();
-        for (int i = 0; i < tempArrSize-1; i++) {
-            if(tempArr.get(i).charAt(0) == tempArr.get(i+1).charAt(0) ||
-                tempArr.get(i).charAt(1) == tempArr.get(i+1).charAt(1) ||
-                    tempArr.get(i).charAt(2) == tempArr.get(i+1).charAt(2)){
-                tempArr.remove(i+1);
-                tempArrSize = tempArrSize-1;
-                i--;
+        for(int i = 0; i < tempArr.size(); i++){
+            for(int j = 0; i < tempArr.size(); i++){
+                if(tempArr.get(i).charAt(2) != tempArr.get(j).charAt(2)){
+                    if(tempArr.get(i).charAt(1) != tempArr.get(j).charAt(1)){
+                        if(tempArr.get(i).charAt(0) != tempArr.get(j).charAt(0)){
+                            solutions.add(tempArr.get(i));
+                        }
+                    }
+                }
             }
         }
-        System.out.println(tempArr.size());
-        System.out.println(tempArr);
+        System.out.println(solutions.size());
+        System.out.println(solutions);
     }
 }
